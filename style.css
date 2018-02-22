@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+.clip{
+  border: 1px solid #000;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+
+
+.ellipsis{
+  border: 1px solid #000;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hover:hover {
+  overflow: visible;
+  width: fit-content;
+}
+
+.word-wrap{
+  border: 1px solid #000;
+  width: 200px;
+  padding: 1em;
+  word-wrap: break-word;
+   
+}
+
+.keep-all{
+  border: 1px solid #000;
+  padding: 1em;
+  width: 120px;
+  word-break: keep-all;
+}
+
+.break-all{
+  border: 1px solid #000;
+  padding: 1em;
+  width: 120px;
+  word-break: break-all;
+}
